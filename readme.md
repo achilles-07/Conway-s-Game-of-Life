@@ -33,7 +33,7 @@
     - May need to set the "TERM" env variable.
 - Windows
     - MinGW and Cygwin
-    - >= PowerShell 5.1
+    - \>= PowerShell 5.1
     - 3rd party : ANSICON, Cmder, ConEmu
     - Windows console in Win 10, but requires extra code.
 
