@@ -1,17 +1,3 @@
-<!-- Some Theory -->
-
-# Flattened 2D array
-
-- A 2D array can be flattened into a 1D array.
-- We have to calculate the offset of each element :
-    - arr[m*numOfColumns + n]; // The element in row m, column n.
-- Helpful when you prefer performance over readability.
-    - This is because accessing an array element would be dereferencing a memory location
-      when you try to get arr[m][n].
-    - In the above method, you just need to multiply.
-    - In modern hardware, multiplication is much faster than dereferencing.
-
-
 # Conway's Game of Life
 
 - C++ doesn't have a standard Graphics Lib.
